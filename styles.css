@@ -1,0 +1,40 @@
+/* Question 1 */
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px;
+}
+
+/* Question 2 */
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 100px 50px 4rem auto;
+}
+
+/* Question 3 */
+.container {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  grid-template-areas: "a b"
+  "c  d"
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 100px 100px;
+}
+
+div > a {
+  grid-area: a;
+}
+
+div > b {
+  grid-area: b;
+}
+
+div > c {
+  grid-area: c;
+}
+
+div > d {
+  grid-area: d;
+}
